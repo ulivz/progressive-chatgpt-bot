@@ -23,9 +23,9 @@ Many ChatGPT bots reply all messages at one time, which may take a long time, bu
 
 ## Quick Start
 
-### 1. Lark Robot Setup
+### 1. Feishu Robot Setup
 
-See [ChatGPT-Feishu](https://github.com/bestony/ChatGPT-Feishu).
+We need apply a feishu robot, this documentation is still WIP until this package is stable. 
 
 ### 2. Aircode Setup
 
