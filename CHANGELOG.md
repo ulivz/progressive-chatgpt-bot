@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.2.2...v0.3.0) (2023-02-18)
+
+
+### Features
+
+* refine public api ([f24c84c](https://github.com/ulivz/progressive-chatgpt-bot/commit/f24c84c64f9120a4399a40efa46263d091dab025))
+
+
+
 ## [0.2.2](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.2.1...v0.2.2) (2023-02-18)
 
 
