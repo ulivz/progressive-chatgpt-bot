@@ -4,6 +4,12 @@
     An progressive ChatGPT Feishu bot, made to assist my girlfriend's work.
 </p>
 
+<p align="center">
+    <a href="https://npmjs.com/package/progressive-chatgpt-bot"><img src="https://img.shields.io/npm/v/progressive-chatgpt-bot.svg?style=flat" alt="NPM version"></a> 
+    <a href="https://npmjs.com/package/progressive-chatgpt-bot"><img src="https://img.shields.io/npm/dm/progressive-chatgpt-bot.svg?style=flat" alt="NPM downloads"></a> 
+    <a href="https://circleci.com/gh/saojs/progressive-chatgpt-bot"><img src="https://img.shields.io/circleci/project/saojs/progressive-chatgpt-bot/master.svg?style=flat" alt="Build Status"></a> 
+</p>
+
 ## Motivation
 
 ### For My Girlfriend
