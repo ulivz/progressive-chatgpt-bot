@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.4...v0.2.0) (2023-02-18)
+
+
+### Features
+
+* bundle this library ([2b3abc4](https://github.com/ulivz/progressive-chatgpt-bot/commit/2b3abc416071d1f12bf7c0837b804b042f63668d))
+
+
+
 ## [0.1.4](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.3...v0.1.4) (2023-02-18)
 
 
