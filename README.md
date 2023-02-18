@@ -1,41 +1,28 @@
-<h1 align="center">ts-lib-template</h1>
+<h1 align="center">Progressive ChatGPT Bot</h1>
 
 <p align="center">
-    A hassle-free TS library template.
+    An progressive ChatGPT Feishu bot, made to assist my girlfriend's work.
 </p>
 
-<p align="center">
-    <a href="https://npmjs.com/package/ts-lib-template"><img src="https://img.shields.io/npm/v/ts-lib-template.svg?style=flat" alt="NPM version"></a> 
-    <a href="https://npmjs.com/package/ts-lib-template"><img src="https://img.shields.io/npm/dm/ts-lib-template.svg?style=flat" alt="NPM downloads"></a> 
-    <a href="https://circleci.com/gh/saojs/ts-lib-template"><img src="https://img.shields.io/circleci/project/saojs/ts-lib-template/master.svg?style=flat" alt="Build Status"></a> 
-</p>
+## Motivation
+
+### For My Girlfriend
+
+In the work involving a lot of copywriting, [ChatGPT](https://openai.com/blog/chatgpt/) may improve our work efficiency, but my girlfriend does not have a very stable way to use it, especially the use of WeChat may lead to account bans, so I created this project for her.
+
+### Progressive
+
+Many ChatGPT bots reply all messages at one time, which may take a long time, but the goal of this bot will be the same as ChatGPT's official website, you will be able to receive messages as quickly as possible, typing in real time to reply you.
+
 
 ## Quick Start
 
-1. Click "Use this template" at this repository.
-2. Rename all `ts-lib-template` to your package name.
-3. Commands:
+WIP
 
-```bash
-npm run bootstrap   # install dependencies
-npm run clean       # clean dependencies
-npm run dev         # development both cjs and esm output
-npm run build       # build both cjs and esm
-npm run lint        # lint code
-npm run lint:fix    # fix all code lint errors
-npm run test        # run all tests
-npm run cov         # run all tests and generate coverage report
-npm run release     # release this package
-```
+## Credits
 
-## Features
-
-- TypeScript by default.
-- Output both `cjs` and `esm`.
-- Unit test with [jest](https://facebook.github.io/jest/).
-- Format code with [eslint](https://eslint.org/docs).
-- Fix and format code on each commit.
-- Leverage [quick-publish](https://github.com/ulivz/quick-publish) for release flow.
+- [chatgpt-api](https://github.com/bestony/chatgpt-api)
+- [ChatGPT-Feishu](https://github.com/bestony/ChatGPT-Feishu)
 
 ## License
 

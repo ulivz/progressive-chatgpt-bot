@@ -37,16 +37,18 @@
     "tslib": "2.4.0"
   },
   "devDependencies": {
-    "quick-publish": "0.6.0",
-    "eslint-config-typescript-library": "0.2.4",
+    "@larksuiteoapi/node-sdk": "^1.11.1",
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",
+    "aircode": "^0.2.7",
     "eslint": "7",
+    "eslint-config-typescript-library": "0.2.4",
     "jest": "28.1.3",
     "jest-cli": "28.1.3",
     "jest-serializer-path": "0.1.15",
     "npm-run-all": "4.1.5",
     "prettier": "2.7.1",
+    "quick-publish": "0.6.0",
     "ts-jest": "28.0.8",
     "typescript": "4.7.4"
   },
