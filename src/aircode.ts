@@ -25,6 +25,8 @@ export function defineFunction<
 
 export function getAircodeFunction() {
   return defineFunction<LarkEncryptedMessage & LarkReceivedMessage>(async (params, context) => {
+    console.log('params', params);
+
     // Pass Lark's challenge check
     if (params.type === 'url_verification') {
       console.log('deal url_verification');
