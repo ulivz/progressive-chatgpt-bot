@@ -21,14 +21,7 @@ Many ChatGPT bots reply all messages at one time, which may take a long time, bu
 
 ### 2. Aircode Setup
 
-Install following packages:
-
-- `progressive-chatgpt-bot`
-- `@larksuiteoapi/node-sdk`
-- `axios`
-- `chatgpt`
-
-Create a function:
+Install `progressive-chatgpt-bot` and create a function:
 
 ```ts
 const { getAircodeFunction } = require('progressive-chatgpt-bot');
