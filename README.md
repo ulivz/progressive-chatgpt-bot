@@ -19,6 +19,8 @@ Many ChatGPT bots reply all messages at one time, which may take a long time, bu
 
 ### 1. Lark Robot Setup
 
+See [ChatGPT-Feishu](https://github.com/bestony/ChatGPT-Feishu).
+
 ### 2. Aircode Setup
 
 Install `progressive-chatgpt-bot` and create a function:
