@@ -6,6 +6,7 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   external: [
+    'aircode',
     'chatgpt',
   ],
   noExternal: [
