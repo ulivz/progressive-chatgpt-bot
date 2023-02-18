@@ -2,7 +2,7 @@
   "name": "progressive-chatgpt-bot",
   "description": "A progressive ChatGPT feishu bot, made to assist my girlfriend's work.",
   "type": "module",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "typings": "esm/index.d.ts",
