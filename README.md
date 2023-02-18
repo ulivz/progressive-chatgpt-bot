@@ -17,7 +17,23 @@ Many ChatGPT bots reply all messages at one time, which may take a long time, bu
 
 ## Quick Start
 
-WIP
+### 1. Lark Robot Setup
+
+### 2. Aircode Setup
+
+Install following packages:
+
+- `progressive-chatgpt-bot`
+- `@larksuiteoapi/node-sdk`
+- `axios`
+- `chatgpt`
+
+Create a function:
+
+```ts
+const { getAircodeFunction } = require('progressive-chatgpt-bot');
+module.exports = getAircodeFunction();
+```
 
 ## Credits
 

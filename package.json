@@ -1,6 +1,6 @@
 {
-  "name": "ts-lib-template",
-  "description": "Default Template",
+  "name": "progressive-chatgpt-bot",
+  "description": "A progressive ChatGPT feishu bot, made to assist my girlfriend's work.",
   "version": "0.0.1",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -34,13 +34,16 @@
     "release": "quick-publish"
   },
   "dependencies": {
-    "tslib": "2.4.0"
+    "@larksuiteoapi/node-sdk": "^1.11.1",
+    "aircode": "^0.2.7",
+    "chatgpt": "^4.4.1"
   },
   "devDependencies": {
-    "@larksuiteoapi/node-sdk": "^1.11.1",
+    "@types/lodash.throttle": "^4.1.7",
+    "lodash.throttle": "^4.1.1",
+    "tslib": "2.4.0",
     "@types/jest": "28.1.7",
     "@types/node": "18.7.6",
-    "aircode": "^0.2.7",
     "eslint": "7",
     "eslint-config-typescript-library": "0.2.4",
     "jest": "28.1.3",
@@ -49,6 +52,8 @@
     "npm-run-all": "4.1.5",
     "prettier": "2.7.1",
     "quick-publish": "0.6.0",
+    "rollup": "^3.17.0",
+    "throttle-debounce": "^5.0.0",
     "ts-jest": "28.0.8",
     "typescript": "4.7.4"
   },
