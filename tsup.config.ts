@@ -10,6 +10,5 @@ export default defineConfig({
     '@larksuiteoapi/node-sdk',
   ],
   outDir: 'dist',
-  outExtension: () => ({ js: '.js' }),
   format: 'cjs',
 });
