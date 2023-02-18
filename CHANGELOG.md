@@ -1,3 +1,7 @@
+## [0.3.15](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.14...v0.3.15) (2023-02-18)
+
+
+
 ## [0.3.14](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.13...v0.3.14) (2023-02-18)
 
 
