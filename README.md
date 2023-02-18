@@ -32,8 +32,10 @@ See [ChatGPT-Feishu](https://github.com/bestony/ChatGPT-Feishu).
 Install `progressive-chatgpt-bot` and create a function:
 
 ```ts
-const { getAircodeFunction } = require('progressive-chatgpt-bot');
-module.exports = getAircodeFunction();
+module.exports = async function(params, context) {
+  const { handle } = import('progressive-chatgpt-bot');
+  return handle(params, context);
+}
 ```
 
 ## Credits
