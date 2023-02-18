@@ -1,3 +1,12 @@
+## [0.3.11](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.10...v0.3.11) (2023-02-18)
+
+
+### Bug Fixes
+
+* feishu client options ([48a12b8](https://github.com/ulivz/progressive-chatgpt-bot/commit/48a12b80b21ea80c5fc5271534bc06bb145a4bef))
+
+
+
 ## [0.3.10](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.9...v0.3.10) (2023-02-18)
 
 
