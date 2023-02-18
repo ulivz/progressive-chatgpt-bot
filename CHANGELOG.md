@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.1...v0.1.2) (2023-02-18)
+
+
+### Features
+
+* log params ([ef72fa7](https://github.com/ulivz/progressive-chatgpt-bot/commit/ef72fa7eb33f0c5d5e963c40e73dc04db17ffde4))
+
+
+
 ## [0.1.1](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.0...v0.1.1) (2023-02-18)
 
 
