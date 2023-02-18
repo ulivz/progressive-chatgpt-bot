@@ -3,7 +3,8 @@ import { getLarkClient, LarkEncryptedMessage, LarkReceivedMessage, reply } from 
 import { getSettingFromNodeEnv, checkSetting } from './env';
 import { handleByOpenAI } from './openai';
 
-const MessageDB = aircode.db.table('message');
+const MessageDB = aircode.db.table('lark-message');
+export const OpenAIMessageDB = aircode.db.table('openai-message');
 
 export interface FunctionContext {
   log(...args: any[]): void;

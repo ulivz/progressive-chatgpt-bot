@@ -2,6 +2,7 @@ import type { ChatMessage } from 'chatgpt';
 import throttle from 'lodash.throttle';
 import { lark, replyCard, editCard, reply, buildProgressiveCard } from './lark';
 import { Setting } from './types';
+import { OpenAIMessageDB } from './aircode';
 
 export async function handleByOpenAI(
   larkClient: lark.Client,
@@ -45,12 +46,21 @@ export async function handleByOpenAI(
 
   try {
     console.log('sendMessage start');
+    const lastMessage = await OpenAIMessageDB.where().findOne();
     const res = await api.sendMessage(content, {
       onProgress,
+      parentMessageId: lastMessage?.pid,
+      conversationId: lastMessage?.cid,
     });
-    console.log('sendMessage end');
+    if (lastMessage) {
+      await OpenAIMessageDB.delete([lastMessage]);
+    }
+    await OpenAIMessageDB.save({ pid: res.id, cid: res.conversationId });
 
-    await reply(larkClient, messageId, res.text);
+    // do not send message when it has been processed under `onProgress` callback
+    if (!progressMessageId) {
+      await reply(larkClient, messageId, res.text);
+    }
   } catch (e) {
     await reply(larkClient, messageId, `failed: ${e}`);
   }
