@@ -1,5 +1,6 @@
+import type { ChatMessage } from 'chatgpt';
 import throttle from 'lodash.throttle';
-import { lark, replyCard, editCard, reply } from './lark';
+import { lark, replyCard, editCard, reply, buildProgressiveCard } from './lark';
 import { Setting } from './types';
 
 export async function handleByOpenAI(
@@ -21,13 +22,21 @@ export async function handleByOpenAI(
 
   let progressMessageId: string | undefined;
 
-  const onProgress = throttle(async partialResponse => {
+  const onProgress = throttle(async (partialResponse: ChatMessage) => {
     console.log('partialResponse', partialResponse);
     if (!progressMessageId) {
-      const replyResponse = await replyCard(larkClient, messageId, partialResponse.text);
+      const replyResponse = await replyCard(
+        larkClient,
+        messageId,
+        buildProgressiveCard(partialResponse.text),
+      );
       progressMessageId = replyResponse?.data?.message_id;
     } else {
-      await editCard(larkClient, progressMessageId, partialResponse.text);
+      await editCard(
+        larkClient,
+        progressMessageId,
+        buildProgressiveCard(partialResponse.text),
+      );
     }
   }, 1000, {
     leading: true,
