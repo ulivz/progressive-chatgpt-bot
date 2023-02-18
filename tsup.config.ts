@@ -5,6 +5,9 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
+  external: [
+    'chatgpt',
+  ],
   noExternal: [
     'lodash.throttle',
     '@larksuiteoapi/node-sdk',
