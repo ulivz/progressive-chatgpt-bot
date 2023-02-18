@@ -1,3 +1,12 @@
+## [0.3.5](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.4...v0.3.5) (2023-02-18)
+
+
+### Bug Fixes
+
+* incorrect params passing ([39e298d](https://github.com/ulivz/progressive-chatgpt-bot/commit/39e298d4b83a471f15a8eef78824da33e73744e3))
+
+
+
 ## [0.3.4](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.3...v0.3.4) (2023-02-18)
 
 
