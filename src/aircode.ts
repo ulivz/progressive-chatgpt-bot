@@ -63,7 +63,7 @@ export const handle = defineFunction<LarkEncryptedMessage & LarkReceivedMessage>
       }
       const userInput = JSON.parse(params.event.message.content);
       const question = userInput.text.replace('@_user_1', '');
-      await handleByOpenAI(larkClient, setting, question, messageId);
+      await handleByOpenAI(larkClient, setting, messageId, question);
       return { code: 0 };
     }
 
@@ -80,7 +80,7 @@ export const handle = defineFunction<LarkEncryptedMessage & LarkReceivedMessage>
       }
       const userInput = JSON.parse(params.event.message.content);
       const question = userInput.text.replace('@_user_1', '');
-      await handleByOpenAI(larkClient, setting, question, messageId);
+      await handleByOpenAI(larkClient, setting, messageId, question);
       return { code: 0 };
     }
   }
