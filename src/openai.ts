@@ -13,6 +13,8 @@ export async function handleByOpenAI(
   console.log(`apiKey:${setting.openaiApiKey}`);
 
   const { ChatGPTAPI } = await import('chatgpt');
+  console.log('ChatGPTAPI', ChatGPTAPI);
+
   const api = new ChatGPTAPI({
     apiKey: setting.openaiApiKey,
   });

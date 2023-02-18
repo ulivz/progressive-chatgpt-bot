@@ -44,6 +44,7 @@ export const handle = defineFunction<LarkEncryptedMessage & LarkReceivedMessage>
 
   const setting = getSettingFromNodeEnv();
   const larkClient = getLarkClient(setting);
+  console.log('setting', setting);
 
   // Check env
   if (!params.hasOwnProperty('header')) {
