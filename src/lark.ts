@@ -12,8 +12,7 @@ export function getLarkClient(setting: Setting): lark.Client {
   return new lark.Client({
     appId: setting.feishuAppId,
     appSecret: setting.feishuAppSecret,
-    appType: lark.AppType.SelfBuild,
-    domain: 'https://fsopen.bytedance.net',
+    disableTokenCache: false,
   });
 }
 
