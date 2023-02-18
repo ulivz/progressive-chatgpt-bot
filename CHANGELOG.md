@@ -1,3 +1,12 @@
+## [0.3.9](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.8...v0.3.9) (2023-02-18)
+
+
+### Features
+
+* tweak throttle ([ebc6db0](https://github.com/ulivz/progressive-chatgpt-bot/commit/ebc6db0b82393d622436b3dae49aa3ecae105a5d))
+
+
+
 ## [0.3.8](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.7...v0.3.8) (2023-02-18)
 
 
