@@ -47,6 +47,7 @@ export async function handleByOpenAI(
   try {
     console.log('sendMessage start');
     const lastMessage = await OpenAIMessageDB.where().findOne();
+    console.log('lastMessage', lastMessage);
     const res = await api.sendMessage(content, {
       onProgress,
       parentMessageId: lastMessage?.pid,
