@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.2...v0.1.3) (2023-02-18)
+
+
+### Bug Fixes
+
+* `lodash.throttle` should be listed in dependencies ([b722cc1](https://github.com/ulivz/progressive-chatgpt-bot/commit/b722cc1d44eff5c183604c35cd8a970eeaa15dde))
+
+
+
 ## [0.1.2](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.1...v0.1.2) (2023-02-18)
 
 
