@@ -1,3 +1,12 @@
+## [0.3.10](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.9...v0.3.10) (2023-02-18)
+
+
+### Bug Fixes
+
+* progress doesn't work ([ef5b391](https://github.com/ulivz/progressive-chatgpt-bot/commit/ef5b3917e3431f0f1450d306d72f809fab15dab3))
+
+
+
 ## [0.3.9](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.8...v0.3.9) (2023-02-18)
 
 
