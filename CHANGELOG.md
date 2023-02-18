@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.1...v0.3.2) (2023-02-18)
+
+
+### Bug Fixes
+
+* output cjs ([5bf10d3](https://github.com/ulivz/progressive-chatgpt-bot/commit/5bf10d36f225c198829ae4f46320210f8839f780))
+
+
+
 ## [0.3.1](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.0...v0.3.1) (2023-02-18)
 
 
