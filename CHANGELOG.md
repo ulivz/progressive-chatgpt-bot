@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.3...v0.1.4) (2023-02-18)
+
+
+### Bug Fixes
+
+* declare `"type": "module"` to fix deploy issue ([e3c7d13](https://github.com/ulivz/progressive-chatgpt-bot/commit/e3c7d139eecbda71c5444f1a33b3a81854955b83))
+
+
+
 ## [0.1.3](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.2...v0.1.3) (2023-02-18)
 
 
