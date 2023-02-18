@@ -22,13 +22,17 @@ export async function handleByOpenAI(
   let progressMessageId: string | undefined;
 
   const onProgress = throttle(async partialResponse => {
+    console.log('partialResponse', partialResponse);
     if (!progressMessageId) {
       const replyResponse = await replyCard(larkClient, messageId, partialResponse.text);
       progressMessageId = replyResponse?.data?.message_id;
     } else {
       await editCard(larkClient, progressMessageId, partialResponse.text);
     }
-  }, 1000);
+  }, 1000, {
+    leading: true,
+    trailing: true,
+  });
 
   try {
     console.log('sendMessage start');
