@@ -1,3 +1,13 @@
+## [0.3.12](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.11...v0.3.12) (2023-02-18)
+
+
+### Features
+
+* skip redundant message ([8d10aef](https://github.com/ulivz/progressive-chatgpt-bot/commit/8d10aefa70cec91033e680df1519729b1197687f))
+* track the conversation ([059c265](https://github.com/ulivz/progressive-chatgpt-bot/commit/059c2652be4aa5c8923183b9d003a61f639bf557))
+
+
+
 ## [0.3.11](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.10...v0.3.11) (2023-02-18)
 
 
