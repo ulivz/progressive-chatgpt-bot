@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.2.1...v0.2.2) (2023-02-18)
+
+
+### Bug Fixes
+
+* chatgpt runtime usage ([9aa5087](https://github.com/ulivz/progressive-chatgpt-bot/commit/9aa50875ab83d9d84d69e4c2e5f9d99da30d90f9))
+
+
+
 ## [0.2.1](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.2.0...v0.2.1) (2023-02-18)
 
 
