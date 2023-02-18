@@ -1,3 +1,12 @@
+## [0.3.7](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.6...v0.3.7) (2023-02-18)
+
+
+### Features
+
+* add more logs ([23a8bce](https://github.com/ulivz/progressive-chatgpt-bot/commit/23a8bce790000b23acaa804716c3279fe9b50bd0))
+
+
+
 ## [0.3.6](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.5...v0.3.6) (2023-02-18)
 
 
