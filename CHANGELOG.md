@@ -1,3 +1,12 @@
+## [0.3.14](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.13...v0.3.14) (2023-02-18)
+
+
+### Bug Fixes
+
+* aircode should not be bundled ([3c8a970](https://github.com/ulivz/progressive-chatgpt-bot/commit/3c8a9704c6d49ce2ea581827b404e4d8ce41e96f))
+
+
+
 ## [0.3.13](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.12...v0.3.13) (2023-02-18)
 
 
