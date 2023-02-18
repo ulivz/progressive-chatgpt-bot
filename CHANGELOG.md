@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.2.0...v0.2.1) (2023-02-18)
+
+
+### Bug Fixes
+
+* Error: ENOENT: no such file or directory, open '/code/node_modules/progressive-chatgpt-bot/dist/encoder.json' ([045cb03](https://github.com/ulivz/progressive-chatgpt-bot/commit/045cb036e62da8eff73a91039e2c46de22db33c9))
+
+
+
 # [0.2.0](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.1.4...v0.2.0) (2023-02-18)
 
 
