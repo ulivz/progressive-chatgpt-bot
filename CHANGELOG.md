@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.3...v0.3.4) (2023-02-18)
+
+
+### Bug Fixes
+
+* chatgpt should be externaled ([5b0b18c](https://github.com/ulivz/progressive-chatgpt-bot/commit/5b0b18c8cfe02ffe83e416d10f004834a140558b))
+
+
+
 ## [0.3.3](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.2...v0.3.3) (2023-02-18)
 
 
