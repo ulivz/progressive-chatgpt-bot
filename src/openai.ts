@@ -31,9 +31,11 @@ export async function handleByOpenAI(
   }, 1000);
 
   try {
+    console.log('sendMessage start');
     const res = await api.sendMessage(content, {
       onProgress,
     });
+    console.log('sendMessage end');
 
     await reply(larkClient, messageId, res.text);
   } catch (e) {
