@@ -1,6 +1,9 @@
+import aircode from 'aircode';
 import { getLarkClient, LarkEncryptedMessage, LarkReceivedMessage, reply } from './lark';
 import { getSettingFromNodeEnv, checkSetting } from './env';
 import { handleByOpenAI } from './openai';
+
+const MessageDB = aircode.db.table('message');
 
 export interface FunctionContext {
   log(...args: any[]): void;
@@ -56,6 +59,14 @@ export const handle = defineFunction<LarkEncryptedMessage & LarkReceivedMessage>
     const eventId = params.header.event_id;
     console.log(`eventId:${eventId}`);
     const messageId = params.event.message.message_id;
+    const count = await MessageDB.where({ message_id: messageId }).count();
+    if (count !== 0) {
+      return {
+        code: 2,
+        message: 'skip redundant message',
+      };
+    }
+    await MessageDB.save({ message_id: messageId });
 
     if (params.event.message.chat_type === 'p2p') {
       if (params.event.message.message_type !== 'text') {
