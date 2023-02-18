@@ -10,6 +10,7 @@ export async function handleByOpenAI(
 ) {
   console.log(`content:${content}`);
   console.log(`messageId:${messageId}`);
+  console.log(`apiKey:${setting.openaiApiKey}`);
 
   const { ChatGPTAPI } = await import('chatgpt');
   const api = new ChatGPTAPI({
@@ -27,10 +28,13 @@ export async function handleByOpenAI(
     }
   }, 1000);
 
-  const res = await api.sendMessage(content, {
-    onProgress,
-  });
+  try {
+    const res = await api.sendMessage(content, {
+      onProgress,
+    });
 
-  await reply(larkClient, messageId, res.text);
-  return res.text;
+    await reply(larkClient, messageId, res.text);
+  } catch (e) {
+    await reply(larkClient, messageId, `failed: ${e}`);
+  }
 }
