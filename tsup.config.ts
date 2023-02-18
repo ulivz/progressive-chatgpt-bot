@@ -9,5 +9,7 @@ export default defineConfig({
     'lodash.throttle',
     '@larksuiteoapi/node-sdk',
   ],
-  format: 'esm',
+  outDir: 'dist',
+  outExtension: () => ({ js: '.js' }),
+  format: 'cjs',
 });
