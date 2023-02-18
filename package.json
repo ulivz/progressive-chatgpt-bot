@@ -1,7 +1,7 @@
 {
   "name": "progressive-chatgpt-bot",
   "description": "A progressive ChatGPT feishu bot, made to assist my girlfriend's work.",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "main": "dist/index.cjs",
   "typings": "lib/index.d.ts",
   "type": "module",
