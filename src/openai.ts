@@ -50,6 +50,8 @@ export async function handleByOpenAI(
     console.log('lastMessage', lastMessage);
     const res = await api.sendMessage(content, {
       onProgress,
+      promptPrefix: '',
+      promptSuffix: '',
       parentMessageId: lastMessage?.pid,
       conversationId: lastMessage?.cid,
     });
