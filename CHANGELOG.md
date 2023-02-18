@@ -1,3 +1,12 @@
+## [0.3.13](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.12...v0.3.13) (2023-02-18)
+
+
+### Bug Fixes
+
+* aircode table name ([8ee6ddf](https://github.com/ulivz/progressive-chatgpt-bot/commit/8ee6ddf9509d16843e15abf9ad6242795bc91b76))
+
+
+
 ## [0.3.12](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.11...v0.3.12) (2023-02-18)
 
 
