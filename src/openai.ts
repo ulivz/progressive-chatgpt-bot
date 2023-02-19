@@ -22,24 +22,31 @@ export async function handleByOpenAI(
     debug: true,
   });
 
+  let pendingRequest: ReturnType<typeof replyCard>;
   let progressMessageId: string | undefined;
 
   const onProgress = async (partialResponse: ChatMessage) => {
     console.log('partialResponse', partialResponse);
+    if (pendingRequest) {
+      const replyResponse = await pendingRequest;
+      if (!progressMessageId) {
+        progressMessageId = replyResponse?.data?.message_id;
+      }
+    }
     if (!progressMessageId) {
-      const replyResponse = await replyCard(
+      pendingRequest = replyCard(
         larkClient,
         messageId,
         buildProgressiveCard(partialResponse.text),
       );
-      progressMessageId = replyResponse?.data?.message_id;
     } else {
-      await editCard(
+      pendingRequest = editCard(
         larkClient,
         progressMessageId,
         buildProgressiveCard(partialResponse.text),
       );
     }
+    await pendingRequest;
   };
 
   try {
