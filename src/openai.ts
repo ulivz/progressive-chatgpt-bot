@@ -61,6 +61,8 @@ export async function handleByOpenAI(
     }
     await OpenAIMessageDB.save({ pid: res.id, cid: res.conversationId });
 
+    console.log('res.text', res.text);
+
     // do not send message when it has been processed under `onProgress` callback
     if (!progressMessageId) {
       await reply(larkClient, messageId, res.text);
