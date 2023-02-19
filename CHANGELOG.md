@@ -1,3 +1,12 @@
+## [0.3.20](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.19...v0.3.20) (2023-02-19)
+
+
+### Features
+
+* recover progress ([4208761](https://github.com/ulivz/progressive-chatgpt-bot/commit/42087617595d751112d73131b0500c8a0bbecbaa))
+
+
+
 ## [0.3.19](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.18...v0.3.19) (2023-02-19)
 
 
