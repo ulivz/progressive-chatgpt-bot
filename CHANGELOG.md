@@ -1,3 +1,12 @@
+## [0.3.23](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.22...v0.3.23) (2023-02-19)
+
+
+### Features
+
+* pending request ([ba487c4](https://github.com/ulivz/progressive-chatgpt-bot/commit/ba487c47db5f38c53aacf09ca199faeb8945be5f))
+
+
+
 ## [0.3.22](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.21...v0.3.22) (2023-02-19)
 
 
