@@ -1,3 +1,12 @@
+## [0.3.21](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.20...v0.3.21) (2023-02-19)
+
+
+### Features
+
+* adjust progress throttle wait ([f6635eb](https://github.com/ulivz/progressive-chatgpt-bot/commit/f6635eb5f7451bc90f31e133a983037775e0ee86))
+
+
+
 ## [0.3.20](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.19...v0.3.20) (2023-02-19)
 
 
