@@ -1,3 +1,12 @@
+## [0.3.18](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.17...v0.3.18) (2023-02-19)
+
+
+### Features
+
+* temporarily remove progress feature ([d48fcc8](https://github.com/ulivz/progressive-chatgpt-bot/commit/d48fcc88bdb6ef79befd7fe4de91da2e79aa2d05))
+
+
+
 ## [0.3.17](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.16...v0.3.17) (2023-02-19)
 
 
