@@ -19,6 +19,7 @@ export async function handleByOpenAI(
 
   const api = new ChatGPTAPI({
     apiKey: setting.openaiApiKey,
+    debug: true,
   });
 
   let progressMessageId: string | undefined;
