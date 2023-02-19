@@ -1,3 +1,12 @@
+## [0.3.19](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.18...v0.3.19) (2023-02-19)
+
+
+### Features
+
+* log chatgpt response text ([3152a21](https://github.com/ulivz/progressive-chatgpt-bot/commit/3152a214c5742843d422f919cabc0b7ee3a1fd24))
+
+
+
 ## [0.3.18](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.17...v0.3.18) (2023-02-19)
 
 
