@@ -1,3 +1,12 @@
+## [0.3.17](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.16...v0.3.17) (2023-02-19)
+
+
+### Features
+
+* enable chatgpt api debug ([7949412](https://github.com/ulivz/progressive-chatgpt-bot/commit/7949412eb64bebeba9dd1e8783ebd7c60b8a8c6b))
+
+
+
 ## [0.3.16](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.15...v0.3.16) (2023-02-18)
 
 
