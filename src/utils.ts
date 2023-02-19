@@ -1,4 +1,4 @@
-export function throttle<T extends(...args: unknown[]) => unknown>(cb: T, delay: number) {
+export function throttle<T extends(...args: any[]) => unknown>(cb: T, delay: number) {
   let wait = false;
   let storedArgs: null | Parameters<T> = null;
 
