@@ -40,9 +40,9 @@ export async function handleByOpenAI(
         buildProgressiveCard(partialResponse.text),
       );
     }
-  }, 1000, {
-    leading: true,
-    trailing: true,
+  }, 2000, {
+    leading: false,
+    trailing: false,
   });
 
   try {
