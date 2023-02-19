@@ -24,33 +24,33 @@ export async function handleByOpenAI(
 
   let progressMessageId: string | undefined;
 
-  const onProgress = throttle(async (partialResponse: ChatMessage) => {
-    console.log('partialResponse', partialResponse);
-    if (!progressMessageId) {
-      const replyResponse = await replyCard(
-        larkClient,
-        messageId,
-        buildProgressiveCard(partialResponse.text),
-      );
-      progressMessageId = replyResponse?.data?.message_id;
-    } else {
-      await editCard(
-        larkClient,
-        progressMessageId,
-        buildProgressiveCard(partialResponse.text),
-      );
-    }
-  }, 1000, {
-    leading: true,
-    trailing: true,
-  });
+  // const onProgress = throttle(async (partialResponse: ChatMessage) => {
+  //   console.log('partialResponse', partialResponse);
+  //   if (!progressMessageId) {
+  //     const replyResponse = await replyCard(
+  //       larkClient,
+  //       messageId,
+  //       buildProgressiveCard(partialResponse.text),
+  //     );
+  //     progressMessageId = replyResponse?.data?.message_id;
+  //   } else {
+  //     await editCard(
+  //       larkClient,
+  //       progressMessageId,
+  //       buildProgressiveCard(partialResponse.text),
+  //     );
+  //   }
+  // }, 1000, {
+  //   leading: true,
+  //   trailing: true,
+  // });
 
   try {
     console.log('sendMessage start');
     const lastMessage = await OpenAIMessageDB.where().findOne();
     console.log('lastMessage', lastMessage);
     const res = await api.sendMessage(content, {
-      onProgress,
+      // onProgress,
       promptPrefix: '',
       promptSuffix: '',
       parentMessageId: lastMessage?.pid,

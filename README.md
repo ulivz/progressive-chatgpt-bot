@@ -34,7 +34,7 @@ Install `progressive-chatgpt-bot` and create a function:
 ```ts
 module.exports = async function(params, context) {
   const { handle } = await import('progressive-chatgpt-bot');
-  return handle(params, context);
+  return await handle(params, context);
 }
 ```
 
