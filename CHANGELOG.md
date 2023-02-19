@@ -1,3 +1,12 @@
+## [0.3.24](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.23...v0.3.24) (2023-02-19)
+
+
+### Features
+
+* throttled progress ([c8dd65e](https://github.com/ulivz/progressive-chatgpt-bot/commit/c8dd65ea160ed1a7fab9371d88bf9a2a13e65f69))
+
+
+
 ## [0.3.23](https://github.com/ulivz/progressive-chatgpt-bot/compare/v0.3.22...v0.3.23) (2023-02-19)
 
 
