@@ -33,8 +33,9 @@ Install `progressive-chatgpt-bot` and create a function:
 
 ```ts
 module.exports = async function(params, context) {
-  const { handle } = await import('progressive-chatgpt-bot');
-  return await handle(params, context);
+  const { getAircodeHandler } = await import('progressive-chatgpt-bot');
+  const handle = getAircodeHandler({ debug: true })
+  return handle(params, context);
 }
 ```
 
