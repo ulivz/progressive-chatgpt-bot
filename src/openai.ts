@@ -24,7 +24,7 @@ export async function handleByOpenAI(
 
   let progressMessageId: string | undefined;
 
-  const onProgress = throttle(async (partialResponse: ChatMessage) => {
+  const onProgress = async (partialResponse: ChatMessage) => {
     console.log('partialResponse', partialResponse);
     if (!progressMessageId) {
       const replyResponse = await replyCard(
@@ -40,10 +40,7 @@ export async function handleByOpenAI(
         buildProgressiveCard(partialResponse.text),
       );
     }
-  }, 2000, {
-    leading: false,
-    trailing: false,
-  });
+  };
 
   try {
     console.log('sendMessage start');
