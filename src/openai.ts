@@ -1,8 +1,8 @@
 import type { ChatMessage } from 'chatgpt';
-import throttle from 'lodash.throttle';
 import { lark, replyCard, editCard, reply, buildProgressiveCard } from './lark';
 import { Setting } from './types';
 import { OpenAIMessageDB } from './aircode';
+import { throttle } from './utils';
 
 export async function handleByOpenAI(
   larkClient: lark.Client,
@@ -25,7 +25,7 @@ export async function handleByOpenAI(
   let pendingRequest: ReturnType<typeof replyCard>;
   let progressMessageId: string | undefined;
 
-  const onProgress = async (partialResponse: ChatMessage) => {
+  const onProgress = throttle(async (partialResponse: ChatMessage) => {
     console.log('partialResponse', partialResponse);
     if (pendingRequest) {
       const replyResponse = await pendingRequest;
@@ -47,7 +47,7 @@ export async function handleByOpenAI(
       );
     }
     await pendingRequest;
-  };
+  }, 2000);
 
   try {
     console.log('sendMessage start');
